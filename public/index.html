@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Omah-food</title>
+  <link rel="stylesheet" 
+       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+      integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+      crossorigin=""/>
+  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin="">
+  <link rel="stylesheet" href="./style.css">
+<body>
+  <div class="container">
+    <div class="menu item">
+        <div class="logo">Omah Food</div>
+        <input type="text" class="search-input" placeholder="Search">
+        <ul class="nav">
+          <li  class="navItem" class="search">
+            <i class="searchs fa fa-search" style="font-size:25px"></i>
+          </li>
+          <li class="navItem cart"><i class="fa fa-shopping-cart" style="font-size:25px"></i></li>
+          <li class="navItem">
+            <button class="login">Login</button>
+          </li>
+          <li class="navItem">
+            <button class="logout">Logout</button>
+          </li>
+        </ul>
+    </div>
+    <div class="sidebar">
+      <img class="avatar" src="./img/avatar.jpg" alt="avatar" width="48px">
+      <p>Dion Aditya</p>
+    </div>
+    <div class="content item">
+      <div id="orderMenu">
+        <p>Burger</p>
+        <input id="menu1"type="number" placeholder="0" value="0">
+        <p>Sandwich</p>
+        <input id="menu2"type="number" placeholder="0" value="0">
+        <p>Spaghetti</p>
+        <input id="menu3"type="number" placeholder="0" value="0">
+        <br>
+        <button class="button" id="submitMenu">Order</button>
+        <p id="textTotal">Total orderan kamu: Rp. 0</p>
+        <p id="copyright"> created by: Dion Aditya MWS Batch 1 (Semarang)</p>
+      </div>
+    </div>
+    <div class="content2 item map">
+      <a href="./map.html"><button class="button"> Link to Map</button></a>
+    </div>
+    <div class="footer item">
+      <h2>DION ADITYA</h2>
+      <p>MWS BATCH 1- Semarang</p>  
+    r</div>
+  </div>  
+  <script src="main.js"></script>
+</body>
+</html>

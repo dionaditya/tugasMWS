@@ -1,0 +1,17 @@
+{
+  "name": "tugas1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-css": "node-sass --include-path sass ./sass/main.sass ./public/style.css -w",
+    "dev": "browser-sync start --server 'public' --files 'public/**/*.css, public/**/*.js, *.html'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "node-sass-chokidar": "^1.3.3"
+  }
+}
