@@ -10,15 +10,26 @@
 #Tugas 3
 1. Bekerja dengan service worker
 
-cara copy
+### Prerequisites
 
-function test() {
-  console.log("notice the blank line before this function?");
-}
+What things you need to install the software and how to install them
 
-# git clone https://github.com/dionaditya/tugasMWS.git
-# npm i
-# npm run dev
-# npm run sass:css
+```
+1. Node js
+2. Npm
+```
+
+### Installing
+
+A step by step series of examples that tell you how to get a development env running
+
+Say what the step will be
+
+```
+git clone https://github.com/dionaditya/tugasMWS.git
+npm i
+npm run dev
+npm run sass:css
+```
 
 happy coding
