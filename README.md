@@ -1,4 +1,4 @@
-# tugasMWS
+# tugasMWS-Semarang
 
 #Tugas 1:
 1. Membuat akun firebase dan deploy
@@ -16,7 +16,7 @@ What things you need to install the software and how to install them
 
 ```
 1. Node js
-2. Npm
+2. npm
 ```
 
 ### Installing
