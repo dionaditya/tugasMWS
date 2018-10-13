@@ -11,9 +11,14 @@
 1. Bekerja dengan service worker
 
 cara copy
-git clone https://github.com/dionaditya/tugasMWS.git
-npm i
-npm run dev
-npm run sass:css
+
+function test() {
+  console.log("notice the blank line before this function?");
+}
+
+# git clone https://github.com/dionaditya/tugasMWS.git
+# npm i
+# npm run dev
+# npm run sass:css
 
 happy coding
