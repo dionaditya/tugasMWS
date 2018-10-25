@@ -19,47 +19,48 @@
   <link rel="manifest" href="manifest.json">
 <body>
   <div class="container">
-    <div class="menu item">
-        <div class="logo">Omah Food</div>
-        <input type="text" class="search-input" placeholder="Search">
-        <ul class="nav">
-          <li  class="navItem" class="search">
-            <i class="searchs fa fa-search" style="font-size:25px"></i>
-          </li>
-          <li class="navItem cart"><i class="fa fa-shopping-cart" style="font-size:25px"></i></li>
-          <li class="navItem">
-            <button class="login">Login</button>
-          </li>
-          <li class="navItem">
-            <button class="logout">Logout</button>
-          </li>
+    <div class="menu">
+      <div class="logo">Logo</div>
+      <div class="navItem">
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li class="logout">4</li>
+          <li class="login">5</li>
         </ul>
-    </div>
-    <div class="sidebar">
-      <img class="avatar" src="./img/avatar.jpg" alt="avatar" width="48px">
-      <p>Dion Aditya</p>
-    </div>
-    <div class="content item">
-      <div id="orderMenu">
-        <p>Burger</p>
-        <input id="menu1"type="number" placeholder="0" value="0">
-        <p>Sandwich</p>
-        <input id="menu2"type="number" placeholder="0" value="0">
-        <p>Spaghetti</p>
-        <input id="menu3"type="number" placeholder="0" value="0">
-        <br>
-        <button class="button" id="submitMenu">Order</button>
-        <p id="textTotal">Total orderan kamu: Rp. 0</p>
-        <p id="copyright"> created by: Dion Aditya MWS Batch 1 (Semarang)</p>
       </div>
     </div>
-    <div class="content2 item map">
-      <a href="./map.html"><button class="button"> Link to Map</button></a>
+    <div class="sidebar">
+      <img src="./img/avatar.jpg"> <hr>
+      <p id="nama">Dion Aditya</p>
     </div>
-    <div class="footer item">
-      <h2>DION ADITYA</h2>
-      <p>MWS BATCH 1- Semarang</p>
-      <p>github.com/dionaditya/tugasMWS</p>  
+    <div class="content1">
+      <h2>Order Menu</h2>
+      <p>Burger</p>
+      <input type="number" name="burger" id="burger">
+      <p>Sandwich</p>
+      <input type="number" name="sandwichr" id="sandwich">
+      <p>Spaghetti</p>
+      <input type="number" name="spaghetti" id="spaghetti">
+      <button type="submit" id="orderButton">Order</button>
+      <p id="textTotal"></p>
+    </div>
+    <div class="content2">
+        <a href="map.html">
+          <button class="btn-grad">
+           Link to map
+          </button>
+        </a>
+    </div>
+    <div class="content3">
+        <button class="btn-grad">
+            <a href="map1.html">link to Omah food app</a>
+        </button>
+    </div>
+    <div class="footer">
+      <p>Dion Aditya</p>
+      <p>MWS SEMARANG BATCH 1 2018</p>
     </div>
   </div>  
   <script src="main.js"></script>
