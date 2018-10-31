@@ -7,7 +7,7 @@ if('serviceWorker' in navigator) {
 }
 
 const orderButton = document.getElementById('orderButton')
-
+addToHomescreen();
 // fungsi hitung menu
 orderButton.onclick = function() {
   const harga = [17500, 14500, 10600]
@@ -24,3 +24,18 @@ orderButton.onclick = function() {
   document.querySelector('#textTotal').innerHTML = totalRupiah
 }
 
+// promt untuk pemasangan home to screen
+window.addEventListener('beforeinstallprompt', function(e) {
+  e.userChoice.then(function(choiceResult) {
+
+    console.log(choiceResult.outcome);
+
+    //check apkaah user menambahkan ke home atau tidak
+    if(choiceResult.outcome == 'dismissed') {
+      console.log('User cancelled home screen install');
+    }
+    else {
+      console.log('User added to home screen');
+    }
+  });
+});

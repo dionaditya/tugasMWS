@@ -11,7 +11,9 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
       integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
       crossorigin=""/>
-  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+  <link rel="stylesheet" 
+       href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+  <link href="https://focssnts.googleapis.com/css?family=Pacifico" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
   crossorigin="">
@@ -20,47 +22,41 @@
 <body>
   <div class="container">
     <div class="menu">
-      <div class="logo">Logo</div>
+      <div class="logo">Omah-food</div>
       <div class="navItem">
         <ul>
-          <li>1</li>
-          <li>2</li>
-          <li>3</li>
-          <li class="logout">4</li>
-          <li class="login">5</li>
+          <li><i class="fa fa-home fa-1x"></i></li>
+          <li><li><i class="fa fa-search fa-1x"></i></li></li>
+          <li><li><i class="fa fa-shopping-cart fa-1x"></i></li>
         </ul>
       </div>
     </div>
-    <div class="sidebar">
+    <div class="sidebar box">
       <img src="./img/avatar.jpg"> <hr>
       <p id="nama">Dion Aditya</p>
     </div>
-    <div class="content1">
+    <div class="content1 box">
       <h2>Order Menu</h2>
       <p>Burger</p>
-      <input type="number" name="burger" id="burger">
+      <input type="number" name="burger" id="burger" class="input is-rounded" type="text" placeholder="Jumlah Burer">
       <p>Sandwich</p>
-      <input type="number" name="sandwichr" id="sandwich">
+      <input type="number" name="sandwichr" id="sandwich" class="input is-rounded" type="text" placeholder="Jumlah Sandwich">
       <p>Spaghetti</p>
-      <input type="number" name="spaghetti" id="spaghetti">
-      <button type="submit" id="orderButton">Order</button>
+      <input type="number" name="spaghetti" id="spaghetti" class="input is-rounded" type="text" placeholder="Jumlah Spagheti">
+      <br>
+      <button type="submit" id="orderButton" class="button is-warning">Order</button>
       <p id="textTotal"></p>
     </div>
-    <div class="content2">
-        <a href="map.html">
-          <button class="btn-grad">
-           Link to map
-          </button>
-        </a>
+    <div class="content2 box">
+           <a href="map.html" class="button is-primary">link to Mapbox</a>
     </div>
-    <div class="content3">
-        <button class="btn-grad">
-            <a href="map1.html">link to Omah food app</a>
-        </button>
+    <div class="content3 box">
+            <a href="map1.html" class="button is-primary">link to Omah food app</a>
     </div>
-    <div class="footer">
+    <div class="footer box">
       <p>Dion Aditya</p>
       <p>MWS SEMARANG BATCH 1 2018</p>
+      <a href="https://github.com/dionaditya/tugasMWS" class="button is-primary">link to github</a>
     </div>
   </div>  
   <script src="main.js"></script>
