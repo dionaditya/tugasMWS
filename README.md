@@ -10,6 +10,10 @@
 #Tugas 3
 1. Bekerja dengan service worker
 
+#Tugas 4
+1. Ferching data dari json file
+2. A2hs
+
 ### Prerequisites
 
 What things you need to install the software and how to install them
